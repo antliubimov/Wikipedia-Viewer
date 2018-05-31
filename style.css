@@ -1,0 +1,137 @@
+/* Colors
+ #3F2B37; (63, 43, 55)
+#5A4156; (90, 65, 86)
+#F59D54; (245, 157, 84)
+#F07F51; (240, 127, 81)
+#C48876; (196, 136, 118)
+
+
+*/
+
+body {
+    background-color: #3f2b37;
+    color: #f59d54;
+}
+.parent {
+    width: 100%;
+    display: flex;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.parent--js {
+    height: 100%;
+    position: fixed;
+}
+.wrapper {
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.logo {
+    margin-bottom: 40px;
+}
+.logo img {
+    float: left;
+    margin-right: 20px;
+}
+.logo h1, .logo h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.logo h1 {
+    padding-top: 30px;
+}
+.logo h3 {
+    color: #f07f51;
+    font-weight: lighter;
+    font-size: 14px;
+}
+.search {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.search input {
+    width: 335px;
+    height: 46px;
+    padding: 0;
+    border: 0;
+    background-color: rgb(237, 238, 242);
+    border: 2px solid #C48876;
+    border-radius: 5px;
+    font-size: 24px;
+    color: #5A4156;
+    padding-left: 5px;
+}
+.search input:focus {
+    outline: none;
+    box-shadow: 0 0 2px 2px #C48876;
+}
+
+.search button {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(237, 238, 242);
+    border: 2px solid #C48876;
+    border-radius: 5px;
+}
+.search button:hover {
+    box-shadow: 0 0 2px 2px #C48876;
+}
+.search--random {
+    display: block;
+    border: 2px solid #C48876;
+    border-radius: 10px;
+    background-color: #5a4156;
+    padding: 5px 15px;
+    color: #f59d54;
+    text-decoration: none;
+    text-align: center;
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+
+.search--random:hover {
+    opacity: 1;
+}
+
+.search--random svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    margin-bottom: -2px;
+}
+
+#output  {
+    width: 600px;
+    margin: 0 auto;
+}
+#output li {
+    list-style: none;
+    border: 2px solid #C48876;
+    padding: 5px;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+
+#output li:hover {
+    opacity: 1;
+}
+#output a {
+    text-decoration: none;
+    color: #f59d54;
+
+}
+#output h3 {
+    margin: 0;
+}
+#output p {
+    color: rgb(237, 238, 242);
+}
